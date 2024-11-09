@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>js for loop</h2>
+    <p id="demo"></p>
+    <script>
+        //display first 10  natural no
+        for(var i=2; i<=10; i +=2 ){
+document.write(i)
+        }
+        var fruits = ["apples","mango","graphes"]
+        var text = "";
+        var i;
+        for (i = 0; i < fruits.length; i++) {
+            text += fruits[i] + "<br>"; // we can change the element by changing the i to others
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+</html>
